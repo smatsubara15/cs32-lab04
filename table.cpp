@@ -83,7 +83,8 @@ std::ostream& operator<<(std::ostream& out, const Table& t){
   }
   mergesort(a,num);
   for(int i=0;i<num;i++){
-    out<<a[i].get_key()<<" "<<a[i].get_data()<<endl;
+    //out<<a[i].get_key()<<" "<<a[i].get_data()<<endl;
+    out<<a[i]<<endl;
   }
   return out;
 }
